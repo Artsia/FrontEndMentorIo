@@ -1,0 +1,50 @@
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0%;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.block-container{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+}
+
+#adviceIdentifier{
+    display: flex;
+    justify-content: center;
+}
+
+
+#adviceResponse{
+    display: flex;
+    justify-content: center;
+    color:white;
+    
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
