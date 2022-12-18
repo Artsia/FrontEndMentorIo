@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+/*global*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+   
+}
+
+p{font-size: 14px;}
+
+
+/*footer*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+
+ 
+
+
+
+  /*Start here*/
+
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+  }
+
+  .image-container {
+    height: 490px;
+  }
+
+ 
+  .image-container #image{
+    width: 230px;
+    height: 490px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+  }
+
+  .flex-col-product-info-container{
+    width: 270px;
+    height:  490px;
+    border-end-end-radius: 5%;
+    border-top-right-radius: 5%;
+    padding-left: 20px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+
+  .flex-col-product-info-container #perfume{
+    color:hsl(228, 12%, 48%) ;
+    width: 85%;
+    font-family:'Fraunces';
+    font-weight:500 ;
+
+  }
+
+/*description uses google fonts*/
+  .flex-col-product-info-container #description{
+    color:hsl(228, 12%, 48%) ;
+    width: 85%;
+    
+  }
+
+  .flex-col-product-info-container h1{
+    width: 85%;
+    font-family:'Montserrat';
+    font-weight:700 ;
+  }
+
+  .money-flex-div{
+    display: flex;
+    height: 100px;
+    width: 85%;
+
+   
+    
+  }
+
+  .money-flex-div .big-p-cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color:hsl(158, 36%, 37%) ;
+    font-family:'Fraunces';
+    font-size: 36px;
+    margin-right: 15%;
+  }
+
+  .money-flex-div .small-p-cost{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+  }
+
+  .cart-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(158, 36%, 37%) ;
+    border-radius: 5%;
+    width: 85%;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .cart-info{
+    color: white;
+    margin-left: 10px;
+}
+
