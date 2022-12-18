@@ -25,11 +25,6 @@ p{font-size: 14px;}
   }
 
 
-
- 
-
-
-
   /*Start here*/
 
   .flex-container{
@@ -61,6 +56,7 @@ p{font-size: 14px;}
     background-color: hsl(0, 0%, 100%);
   }
   
+  h1:hover{color: orange;}
 
   .flex-col-product-info-container #perfume{
     color:hsl(228, 12%, 48%) ;
@@ -70,11 +66,19 @@ p{font-size: 14px;}
 
   }
 
+  #perfume:hover{
+    color: orange;
+  }
+
 /*description uses google fonts*/
   .flex-col-product-info-container #description{
     color:hsl(228, 12%, 48%) ;
     width: 85%;
     
+  }
+
+  #description:hover{
+    color: orange;
   }
 
   .flex-col-product-info-container h1{
@@ -103,6 +107,8 @@ p{font-size: 14px;}
     margin-right: 15%;
   }
 
+  .big-p-cost:hover{color: orange;}
+
   .money-flex-div .small-p-cost{
     display: flex;
     justify-content: center;
@@ -110,6 +116,10 @@ p{font-size: 14px;}
     align-items: center;
     color: hsl(228, 12%, 48%);
     font-size: 11px;
+  }
+
+  .small-p-cost:hover{
+    color: orange;
   }
 
   .cart-div{
@@ -122,8 +132,22 @@ p{font-size: 14px;}
     height: 40px;
     margin-top: 20px;
   }
-  .cart-info{
+
+  .cart-div:hover{
+    box-shadow: 15px 15px 25 black;
+  }
+
+  .cart-info button{
     color: white;
+    border: 0;
+    background-color:hsl(158, 36%, 37%) ;
     margin-left: 10px;
+}
+
+
+
+.cart-info button:hover{
+  color:rgb(193, 170, 22);
+  
 }
 
