@@ -21,6 +21,8 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
+## Links
+
 - Solution URL:  https://github.com/Artsia/FrontEndMentorIo/tree/master/ProductPreview
 - Live Site URL: https://product-preview-hover-frontendio.netlify.app/
 
