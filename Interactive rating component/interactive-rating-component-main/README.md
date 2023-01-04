@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/Artsia/FrontEndMentorIo/tree/master/Interactive%20rating%20component/interactive-rating-component-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
