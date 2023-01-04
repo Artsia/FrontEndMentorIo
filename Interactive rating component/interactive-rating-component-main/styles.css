@@ -1,0 +1,140 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: "Overpass", sans-serif;
+    background-color:  hsl(212, 21%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: hsl(213, 19%, 18%);
+    width: 90%;
+    padding: 15px;
+    border-radius: 1.5em;
+    margin: 200px auto;
+  }
+  
+  .heading {
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+  }
+  
+  
+
+  .flex_btn_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-weight: bold;
+    color: hsl(217, 12%, 63%);
+  }
+  
+  .star {
+    background-color: hsla(216, 12%, 54%, 0.205);
+    border-radius: 50%;
+    padding: 1em;
+  }
+  
+  .btn_round {
+    background-color: hsla(216, 12%, 54%, 0.205);
+    border-radius: 50%;
+    padding: 0.8em 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn_round:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    
+  }
+  
+  /*btn color when clicked*/
+  .btn_round:active {
+    background-color: orange;
+    color: white;
+  }
+
+  /*round buttons*/
+
+  .round_btn{
+    background-color: hsla(216, 12%, 54%, 0.205);
+    border: none;
+    font-weight: bold;
+    border-radius: 50%;
+    color: white;
+    border: none;
+  }
+  
+  /*added class with JS to the selected rating*/
+  .selected {
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+  }
+  
+  .sbt {
+    
+    letter-spacing: 4px;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+    width: 100%;
+    padding: 1em;
+    border-radius: 2em;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  .submit_container .sbt{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  
+  .submit_container .sbt:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+  
+  .sbt:hover {
+    cursor: pointer;
+  }
+  
+  .returned_info_container {
+    display: none;
+    text-align: center;
+  }
+  
+  .returned_info_container img {
+    margin-bottom: 1em;
+  }
+  
+  .rating {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 1em;
+    padding: 0.4em 1.3em;
+    display: inline-block;
+    margin-bottom: 0.7em;
+  }
+  
+  .submit_container {
+    display: block;
+  }
+  
+ 
+  
+  
